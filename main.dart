@@ -1,7 +1,7 @@
 
 void main () {
   // Para testar, basta alterar o valor inteiro informado para função somaTotal
-  print ('\nO somatório de todos os valores inteiros inferiores divisíveis por 3 ou 5 foi: ${somaTotal(50)}');
+  print ('\nO somatório de todos os valores inteiros inferiores divisíveis por 3 ou 5 foi: ${somaTotal(200)}');
 }
 
 bool booleana(int x) {            // Uma função booleana que será chamada apenas para comparar os valores
