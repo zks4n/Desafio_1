@@ -1,3 +1,9 @@
+
+void main () {
+  // Para testar, basta alterar o valor inteiro informado para função somaTotal
+  print ('\nO somatório de todos os valores inteiros inferiores divisíveis por 3 ou 5 foi: ${somaTotal(100)}');
+}
+
 bool booleana(int x) {            // Uma função booleana que será chamada apenas para comparar os valores
   if (x % 3 == 0 || x % 5 == 0) { // Se o resto da divisão por 3 ou 5 for igual a 0, a função me retorna true, caso contrário, false
     return true;
